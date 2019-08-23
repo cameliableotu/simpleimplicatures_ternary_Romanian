@@ -833,7 +833,7 @@ PennController("experiment" ,
 PennController("experiment" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> Hai să facem cunoştinţă cu grupul broaştelor. </p>")
+	       newText ("<p> Hai să trecem la grupul broaştelor. </p>")
 	    ,
 	                  
 	     newImage ("threefrogs.png")
