@@ -25,7 +25,10 @@ PennController( "welcome" ,
 	    newTextInput ("Profession")  
         .print()
 	       ,
-	       
+	       newText ("<p> Pentru a trece la pagina următoare, foloseşte bara de spaţiu (space bar). </p>")
+	       .print ()
+	       ,
+
     newButton("Start")
         .print()
         .wait()
@@ -101,7 +104,7 @@ PennController("trialbunny" ,
 	    
 	       ,
 	       newText 
-	       ("<p> Hop-hop, iată că s-a dus în spatele cortinei. </p>"),
+	       ("<p> Hop-hop, iată că s-a dus în spatele cortinei. Pentru a răsplăti dragonul, fă pur şi simplu click pe mărul dorit.</p>"),
 	      
 	       newImage ("bunnyshadow2", "bunnyshadow2.jpg")
 	       .print ( )
