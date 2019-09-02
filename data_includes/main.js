@@ -112,7 +112,8 @@ PennController("trialbunny" ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
 		.play()
 	       ,
-	       newText ("<p> Puiul de dragon: Este o vacă. Cum vei răsplati puiul de dragon? </p>")
+	       newText ("<p> Puiul de dragon: Este o vacă. "),
+	       newText ("<p> Cum vei răsplati puiul de dragon? </p>")
 	       ,
 	       newImage("hugeapple", "hugeapple.png")
         .settings.size(200,200)
