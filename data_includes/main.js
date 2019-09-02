@@ -57,7 +57,22 @@ PennController("details" ,
 	       ,
 newText ("<p> Acum Merlin joacă jocul umbrelor cu un pui de dragon foarte drăguţ care trebuie să ghicească a cărui animal este umbra pe care o are în faţa sa.</p>")
 	,
-newText ("<p> Când ghiceşte a cui e umbra în mod corect, trebuie să recompensezi puiul de dragon cu un măr uriaş, când răspunsul lui e aşa şi aşa, îi dai un măr mare, iar atunci când nu ghiceşte a cui e umbra, îi dai doar un măr mic. </p>")
+newText("<p> Pentru a îl ajuta pe puiul de dragon, acesta va vedea alături de umbră atât toate animalele din joc, cât şi animalele care se află atunci pe scenă. </p>"),
+newText ("<p> Dacă nu sunt deloc animale pe scenă, va fi în loc o linie. </p>")
+	       ,
+ newText ("<p> De exemplu, în imaginea de mai jos, sunt trei pisici şi niciuna din ele nu este pe scenă. Toate pisicile s-au dus în spatele cortinei, dar umbra aparţine doar uneia dintre ele. </p>"),
+	  newImage ("catshadowallcats", "catshadowallcats.png")
+	.print (),
+	 newKey(" ")
+        .wait())
+
+;
+PennController("details" ,
+	    defaultText
+	        .print()
+	    
+	       ,
+newText ("<p> Când puiul de dragon ghiceşte a cui e umbra în mod corect, trebuie să-l recompensezi cu un măr uriaş, când răspunsul lui e aşa şi aşa, îi dai un măr mare, iar atunci când nu ghiceşte a cui e umbra, îi dai doar un măr mic. </p>")
 ,
 	   newImage("hugeapple", "hugeapple.png")
         .settings.size(200,200)
@@ -2709,17 +2724,19 @@ PennController("experiment" ,
 ;
 PennController.SendResults( "send" );
 PennController( "final" ,
-    newText("<p> Puiul de dragon spune “Mulţumesc” pentru mere şi la fel şi vrăjitorul! Pa-pa! :) Mulţumesc pentru participare!</p>")
-        .print()
+    newText("<p> Mulţumesc pentru participare! Codul chestionarului pentru MTurk este: zft87a. Te rog fă copy-paste acestui cod în MTurk!</p>") 
+	       .print()
 	       ,
-	newImage ("dragon.png")
-     .print ()
-    ,
+	 newText("<p> Puiul de dragon îţi mulţumeşte pentru mere şi la fel şi vrăjitorul!Pa-pa!</p>")
+        .print(),
+
     newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>")
         .print()
     ,
     newButton("void")
         .wait()
 	       )
+
+  
 
   
