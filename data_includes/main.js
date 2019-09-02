@@ -2728,7 +2728,7 @@ PennController( "final" ,
     newText("<p> Mulţumesc pentru participare! Codul chestionarului pentru MTurk este: zft87a. Te rog fă copy-paste acestui cod în MTurk!</p>") 
 	       .print()
 	       ,
-	 newText("<p> Puiul de dragon îţi mulţumeşte pentru mere şi la fel şi vrăjitorul!Pa-pa!</p>")
+	 newText("<p> Puiul de dragon îţi mulţumeşte pentru mere şi la fel şi vrăjitorul! Pa-pa!</p>")
         .print(),
 
     newText("<p><a href='https://www.put.your/platform/confirmation/link.here'>Click here to validate your participation.</a></p>")
