@@ -1,3 +1,4 @@
+PennController. DebugOff ();
 PennController.ResetPrefix(null);
 PennController.Sequence( "welcome", "details", "trial", "trialbunny", "trialbunny2", "introductionanimals", "experiment", "send" , "final" )
 ;
@@ -7,7 +8,7 @@ PennController( "welcome" ,
     ,
     newText("<p> Salutare tuturor! </p>")
     ,
-    newText("<p> Salutare tuturor, vom juca un joc foarte distractiv împreună cu un vrăjitor şi un pui de dragon, nişte umbre fascinante care aparţin unor animale şi sunete făcute de ele. (Fii atent şi la sunete deci.) </p>" ),
+    newText("<p> Salutare tuturor, vom juca un joc foarte distractiv împreună cu un vrăjitor şi un pui de dragon, nişte umbre care aparţin unor animale şi sunete făcute de ele. (Fii atent şi la sunete deci.) </p>" ),
     newText("<p> Te rog introdu ID-ul tău, răspunde la nişte întrebări, iar apoi fă click pe butonul de mai jos pentru a începe experimentul.</p>")
     ,
     newTextInput("ID")
