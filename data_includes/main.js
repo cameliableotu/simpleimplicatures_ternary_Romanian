@@ -1682,7 +1682,7 @@ newText ("<p> Când puiul de dragon oferă o descriere bună, dar nu cea mai bun
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
-		
+	,	
 		
 		newKey(" ")
         .wait()
