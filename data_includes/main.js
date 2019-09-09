@@ -337,7 +337,7 @@ PennController("introductionanimals" ,
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newText ("<p> Toate câinii s-au dus acum în spatele cortinei. <p>")
+		newText ("<p> Toţi câinii s-au dus acum în spatele cortinei. <p>")
 	       ,
   newText ("<p> Puiul de dragon trebuie să descrie a cui crede el că este umbra. </p>")
 	       ,
@@ -362,6 +362,7 @@ newText ("<p> Când puiul de dragon oferă o descriere bună, dar nu cea mai bun
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
+		,
 		
 		
 		newKey(" ")
@@ -1026,6 +1027,7 @@ newText ("<p> Când puiul de dragon oferă o descriere bună, dar nu cea mai bun
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
+		,
 		
 		
 		newKey(" ")
@@ -1234,8 +1236,8 @@ PennController ("experiment",
 	       ,
 		newText ("<p> Puiul de dragon: Sigur că este broasca mov.</p>")
 		,
-		newText ("<p> Cum vei răsplăti puiul de dragon? 
-			 ,</p>")
+		newText ("<p> Cum vei răsplăti puiul de dragon? </p>")
+		,
 	      newImage("hugeapple", "hugeapple.png")
         .settings.size(200,200)
         // .print()
@@ -2342,7 +2344,7 @@ newText ("<p> Când puiul de dragon oferă o descriere bună, dar nu cea mai bun
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
-		
+      ,
 		
 		newKey(" ")
         .wait()
